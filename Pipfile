@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+notebook = "*"
+scipy = "*"
+matplotlib = "*"
+pillow = "*"
+scikit-image = "*"
+pandas = "*"
+kneed = "*"
+ipywidgets = "*"
+scikit-learn = "*"
+ipynb = "*"
+opencv-python = "*"
+
+[dev-packages]
+
+[requires]
+python_full_version = "3.7.9"
