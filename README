@@ -1,0 +1,15 @@
+Overview
+
+This code accompanies the communication Towards Automated Target Picking in Scalar Magnetic Unexploded Ordnance Surveys:  An Unsupervised Machine Learning Approach for Defining Inversion Priors (Claire McGinnity, Mick E. Kolster, Arne Dossing).
+
+We apply our paper's approach to sample survey magnetic data and visualize the results.
+
+Getting Started
+
+Dependencies
+
+All dependencies are listed in the accompanying Pipfile.
+
+Running the code
+
+All code is contained in the notebook propose_regions_for_inversion.ipynb; simply run the code in each cell from beginning to end. Intermediate results will be written to local directories. This local location, along with some hyperparameters, can be configured in cells 2 and 3.
